@@ -7,8 +7,10 @@ use Illuminate\Http\Request;
 
 class CustomerController extends Controller
 {
-    public function index() {
+    public function list() {
         $customers = Customer::simplePaginate(10);
         return view('Customer.list',compact('customers'));
     }
+
+
 }
