@@ -46,5 +46,6 @@ class CitiesController extends Controller
         ]);
 
         return redirect(route('city.list'));
+        aaaaa
     }
 }
