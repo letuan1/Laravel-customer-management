@@ -11,4 +11,8 @@ class CustomerController extends Controller
         $customers = Customer::simplePaginate(10);
         return view('Customer.list',compact('customers'));
     }
+
+    public  function test() {
+       echo ('asd');
+    }
 }
