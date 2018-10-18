@@ -12,5 +12,8 @@ class CustomerController extends Controller
         return view('Customer.list',compact('customers'));
     }
 
+    public  function test() {
+       echo ('asd');
+    }
 
 }
