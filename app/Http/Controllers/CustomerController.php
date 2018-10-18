@@ -12,7 +12,7 @@ class CustomerController extends Controller
         return view('Customer.list',compact('customers'));
     }
 
-    public  function test() {
+    public  function test111() {
        echo ('asd');
     }
 
